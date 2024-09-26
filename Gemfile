@@ -66,9 +66,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "phlex-rails", "~> 1.2"
-
-gem "lookbook", "~> 2.3"
-
 gem "tailwindcss-rails", "~> 2.6"
 gem 'pry'
+
+gem "phlex-rails", "= 2.0.0.beta2"

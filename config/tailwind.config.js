@@ -2,11 +2,12 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
+    './app/views/**/*.{erb,haml,html,slim}',
+    './app/views/**/*.rb', // Phlex views
+    './app/components/**/*.rb', // Phlex components
     './public/*.html',
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
-    './app/views/**/*.{erb,haml,html,slim,rb}',
-    './app/views/components/**/*.rb',
   ],
   theme: {
     extend: {
